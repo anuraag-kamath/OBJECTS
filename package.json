@@ -1,0 +1,35 @@
+{
+  "name": "objects",
+  "version": "1.0.0",
+  "description": "Objects created in BPM",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.5.6",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6",
+    "nodemon": "1.18.3"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/m4vr1ck/bpm.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Anuraag Kamath",
+  "license": "MIT"
+}
