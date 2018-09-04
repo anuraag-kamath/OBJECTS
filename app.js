@@ -10,7 +10,7 @@ const fs = require('fs');
 
 var app = express()
 
-const port = process.env.OBJ_PORT || 12004;
+const port = process.env.OBJ_PORT || process.env.PORT || 12004;
 const jwt_key = process.env.JWT_KEY || "alphabetagamma"
 const logging_enabled = process.env.LOGGING_ENABLED || false
 
